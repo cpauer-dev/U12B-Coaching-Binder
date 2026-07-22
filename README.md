@@ -1,20 +1,31 @@
-# Touchline Binder PWA v0.2
+# Touchline Binder PWA v0.3
 
-## New in this update
-- Jersey-conflict dashboard card appears only when a real duplicate exists.
-- Separate contact information for two parents/guardians.
-- Clickable email addresses and phone actions for Call or Text.
-- Medical-information field for every player.
-- Removed the event season/session field.
-- Duplicate-event workflow that copies the prior details and leaves the new date blank.
-- Event locations open directly in Google Maps.
-- Practice plans can select drills directly from the Drill Library.
-- Selected practice drills can be reordered or removed.
-- Drill Library entries can be edited or deleted.
-- Each drill now includes setup, how it plays, and coach comments.
-- Expanded starter library with rondos, positional games, ball mastery, dribbling, passing, combination play, 1v1, and transition games.
+## Major changes
 
-## GitHub Pages update
-Replace the prior website files with the contents of this folder, commit the changes, and allow GitHub Pages a minute or two to redeploy.
+### Practice Builder
+- Playlist-style practice construction.
+- Add drills directly from the Drill Library.
+- Expand drills inside the builder to review setup and coaching points.
+- Reorder or remove activities.
+- Change the duration for a drill within a specific practice without altering the library version.
+- Automatic total-time calculation.
+- Clear warning when the plan exceeds the available practice time.
 
-This version intentionally uses a new local-storage key and does not migrate v0.1 data.
+### Drill Library
+- Compact cards show only the drill summary by default.
+- Tap a drill to expand its full instructions.
+- Search by name, objective, setup, or coaching language.
+- Filter by category.
+- Edit and delete controls are inside the expanded view.
+- Added fields for category, age recommendation, coaching points, common mistakes, progressions, and regressions.
+- Existing v0.2 drills remain included and can be enriched through Edit.
+
+### Dashboard
+- Next-event countdown.
+- Quick attendance button for the next scheduled event.
+- Jersey conflict card remains exception-based.
+
+## Updating GitHub Pages
+Replace the existing repository files with the contents of this folder, commit the change, and allow GitHub Pages a few minutes to deploy.
+
+This release intentionally uses a fresh local-storage key and does not migrate v0.2 data.
