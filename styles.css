@@ -57,3 +57,11 @@ details.drill-card[open] summary::after{content:'▴'}
 .builder-detail{padding-top:.7rem;width:100%}
 .practice-total{margin-top:.8rem;padding:.75rem;border-radius:10px;background:var(--accent)}
 .practice-total.over{background:#f8d4d4;color:#7b1515}
+
+.theme-description{padding:.75rem;border-radius:10px;background:var(--accent);color:var(--brand);font-size:.9rem}
+.builder-row{display:grid;grid-template-columns:auto 1fr;gap:.5rem;align-items:start;border-radius:12px}
+.builder-row.dragging{opacity:.55}
+.builder-row.drag-target{outline:2px dashed var(--brand2);outline-offset:3px}
+.drag-handle{background:#e8efea;color:var(--brand);padding:.8rem .65rem;cursor:grab;touch-action:none;user-select:none}
+.drag-handle:active{cursor:grabbing}
+.builder-row .builder-item{width:100%}

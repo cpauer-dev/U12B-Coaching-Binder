@@ -1,31 +1,24 @@
-# Touchline Binder PWA v0.3
+# Touchline Binder PWA v0.4
 
-## Major changes
+## Practice Builder
+- Five built-in coaching themes with descriptions.
+- Custom theme option.
+- Drag-and-drop practice playlist on desktop and touch devices.
+- Move Up and Move Down buttons remain available as a reliable fallback.
+- Expand drills inside the playlist, adjust session duration, and monitor total practice time.
 
-### Practice Builder
-- Playlist-style practice construction.
-- Add drills directly from the Drill Library.
-- Expand drills inside the builder to review setup and coaching points.
-- Reorder or remove activities.
-- Change the duration for a drill within a specific practice without altering the library version.
-- Automatic total-time calculation.
-- Clear warning when the plan exceeds the available practice time.
+## New finishing and end-of-practice games
+- Crossbar Challenge
+- World Cup Knockout
+- Rapid Fire Finishing
+- Numbers Finishing Game
+- Six-Second Shootout
+- Goalkeeper Wars
+- Last Goal Wins
 
-### Drill Library
-- Compact cards show only the drill summary by default.
-- Tap a drill to expand its full instructions.
-- Search by name, objective, setup, or coaching language.
-- Filter by category.
-- Edit and delete controls are inside the expanded view.
-- Added fields for category, age recommendation, coaching points, common mistakes, progressions, and regressions.
-- Existing v0.2 drills remain included and can be enriched through Edit.
+These drills include setup, how to play, coaching points, mistakes, progressions, and regressions.
 
-### Dashboard
-- Next-event countdown.
-- Quick attendance button for the next scheduled event.
-- Jersey conflict card remains exception-based.
+## Deployment
+Upload the contents of this folder to the repository root, commit, and allow GitHub Pages a few minutes to deploy.
 
-## Updating GitHub Pages
-Replace the existing repository files with the contents of this folder, commit the change, and allow GitHub Pages a few minutes to deploy.
-
-This release intentionally uses a fresh local-storage key and does not migrate v0.2 data.
+This version intentionally uses a fresh local-storage key and does not migrate v0.3 data.

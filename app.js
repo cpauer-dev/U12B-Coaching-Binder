@@ -1,5 +1,5 @@
 const initialData={
- meta:{teamName:'BSSC U12 Boys B',season:'2026–27',version:'0.3'},
+ meta:{teamName:'BSSC U12 Boys B',season:'2026–27',version:'0.4'},
  players:[
   P('Brody Waite','34','Angela Waite','Parent','angela.waite.aw@gmail.com','','Jason Waite','Parent','',''),
   P('Carson Pauer','13','Chris Pauer','Father','cpauer@gmail.com','','Kate Pauer','Mother','kaitling1987@gmail.com',''),
@@ -29,7 +29,14 @@ const initialData={
   D('Passing Through Traffic','Passing accuracy and receiving',14,'8-16','Balls, cones','Create several passing lanes that cross through a central traffic area.','Pairs pass and move through assigned lanes while scanning for other balls and players. Add one-touch combinations.','Coach communication, weight of pass, and receiving across the body.'),
   D('Third-Player Movement','Off-ball support and combination play',15,'6-12','Cones, balls','Arrange players in triangles or diamonds with clear passing points.','A passes to B, B lays off to C, and a third player moves into the next space. Progress to opposition.','Avoid making it robotic. Add choices and passive defenders once understood.'),
   D('1v1 Escape Gates','Change of pace and direction',14,'6-14','Cones, balls, pinnies','Create small channels with two escape gates at the far end.','Attacker beats the defender and exits either gate. Defender scores by winning and dribbling over the start line.','Coach attacking the defender, selling the fake, and accelerating after the move.'),
-  D('Transition Game','Immediate reaction after turnover',20,'10-14','Pinnies, cones, goals','Use a small-sided field with two goals and spare balls ready around the outside.','Award bonus points for scoring quickly after a regain or recovering possession within five seconds.','Keep the game flowing. Use short interventions and let the chaos teach decisions.')
+  D('Transition Game','Immediate reaction after turnover',20,'10-14','Pinnies, cones, goals','Use a small-sided field with two goals and spare balls ready around the outside.','Award bonus points for scoring quickly after a regain or recovering possession within five seconds.','Keep the game flowing. Use short interventions and let the chaos teach decisions.'),
+  D('Crossbar Challenge','Ball striking accuracy and team energy',8,'Any','Balls, full-size goal','Players line up 18-25 yards from goal with one ball each or a shared supply.','Players take turns trying to strike the crossbar. Play individually, in teams, or as a race to a set number of hits.','Keep the line moving quickly. Adjust distance by age and ability. Reward clean technique over power.','Finishing','U10-U14','Plant foot beside the ball, lock the ankle, strike through the center or lower half, and follow through toward the target.','Leaning back, swinging only from the knee, and waiting too long between turns.','Move farther away, require weaker foot, or award bonus points for a first-time strike.','Move closer, allow a bounce, or use the goal frame as a broader target.'),
+  D('World Cup Knockout','Finishing under pressure and rebound reactions',12,'6-16','Balls, one goal, goalkeeper optional','Use the penalty area or a smaller scoring zone. Players compete individually or in pairs.','Serve a ball into play. Everyone attacks the same goal. The first player or pair to score advances; the last remaining player or pair is eliminated each round until a champion remains.','Keep service immediate and safe. Encourage rebounds, quick decisions, and positive finishing rather than waiting for the perfect shot.','Finishing','U10-U14','Create a shooting window quickly, follow every shot, and react first to loose balls.','Crowding the ball, stopping after shooting, and taking extra touches when the goal is open.','Require first-time finishes, weaker foot, or start with a defender recovering.','Use pairs, enlarge the area, or allow an uncontested first touch.'),
+  D('Rapid Fire Finishing','Fast repetitions and follow-up rebounds',10,'6-15','Many balls, goal, goalkeeper','Set two shooting lines at the top corners of the penalty area. Place a server or ball supply centrally.','Players alternate shots quickly. After shooting, they follow for a rebound, retrieve a ball, and join the opposite line.','Serve the next ball as soon as the goal area is clear. Focus on rhythm, accuracy, and immediate rebound movement.','Finishing','U10-U14','Prepare the body early, choose the corner before contact, and follow the shot.','Standing in the goalmouth, shooting without looking, and striking every ball at maximum power.','Add a combination pass, passive defender, or one-touch finish.','Allow a settling touch or move the shooting point closer.'),
+  D('Numbers Finishing Game','Recognition, competition, and finishing',12,'8-16','Pinnies, balls, two goals','Split into two teams lined up beside the coach. Number players on each team. Use one or two goals depending on space.','Call one or more numbers and serve a ball. Called players enter for a 1v1, 2v2, or 3v3 and play until a goal, ball out, or short time limit.','Vary the numbers to create overloads. Restart immediately to keep intensity high.','Finishing','U10-U14','Attack space quickly, recognize numerical advantage, and finish before defenders recover.','Slow entry, bunching together, and passing up an open shot.','Call uneven numbers, add a recovery defender, or award two points for a one-touch goal.','Call equal numbers, provide a favorable service, or use larger goals.'),
+  D('Six-Second Shootout','Quick decisions and composed finishing',10,'6-16','Balls, goal, goalkeeper, cones','Mark a starting line 20-25 yards from goal. One attacker begins with a ball and one defender starts several yards behind or to the side.','On the signal, the attacker has six seconds to score while the defender recovers. Rotate roles after every attempt.','Count down loudly. Adjust the defender advantage so the attacker feels pressure but still has a realistic chance.','Finishing','U10-U14','First touch forward, get the head up early, use the body to protect the ball, and finish before pressure arrives.','Dribbling directly at the goalkeeper, taking too many touches, and ignoring the defender angle.','Reduce the time, add a second defender, or require weaker foot.','Increase time, move defender farther away, or remove the defender.'),
+  D('Goalkeeper Wars','Long-range striking, handling, and reactions',10,'4-12','Two small goals or cone goals, balls','Create a narrow field with a goal at each end. Players work as opposing goalkeepers or pairs of goalkeepers.','Players throw, roll, punt, or strike the ball toward the opposite goal according to the chosen rules. A save immediately becomes the next attack.','Set safe striking rules and suitable distance. This is an energetic closer that also develops handling and quick distribution.','Finishing','U10-U14','Accurate distribution, ready position after releasing, and quick reaction to rebounds.','Turning away after a shot, unsafe high volleys at close range, and excessive power without accuracy.','Allow only ground strikes, require weaker foot, or play doubles.','Move goals closer or allow throws and rolls.'),
+  D('Last Goal Wins','Fast small-sided finishing game',10,'8-16','Pinnies, balls, two goals','Set a small field with two teams and multiple balls ready on the touchline.','Play continuous small-sided soccer. Announce a short final window; the team scoring the final goal before time expires wins regardless of the earlier score.','Use this sparingly so effort remains meaningful. Feed balls quickly and celebrate positive attacking decisions.','Small-Sided Game','U10-U14','Attack immediately when space opens, support rebounds, and transition quickly after losing the ball.','Players stopping because they are ahead, forcing low-percentage shots, and failing to recover after turnovers.','Award the last two goals, require a one-touch finish, or add neutral players.','Use larger goals or numerical overloads for the attacking team.')
  ],
  equipment:[{id:uid(),item:'Soccer balls',qty:15,status:'Good',notes:''},{id:uid(),item:'Pinnies',qty:18,status:'Good',notes:''},{id:uid(),item:'Cones',qty:40,status:'Good',notes:''}]
 };
@@ -37,8 +44,8 @@ function uid(){return crypto.randomUUID()}
 function P(name,jersey,n1,r1,e1,p1,n2,r2,e2,p2){return{id:uid(),name,jersey,dob:'',registered:false,teamReach:true,parent1:{name:n1,relationship:r1,email:e1,phone:p1},parent2:{name:n2,relationship:r2,email:e2,phone:p2},medical:'',notes:''}}
 function D(name,theme,minutes,players,equipment,setup,play,comments,category='General',age='U10-U14',coachingPoints='',mistakes='',progressions='',regressions=''){return{id:uid(),name,theme,minutes,players,equipment,setup,play,comments,category,age,coachingPoints,mistakes,progressions,regressions}}
 let data=loadData(),deferredPrompt=null,tempPracticeDrills=[],drillSearch='',drillCategory='All';
-function loadData(){const r=localStorage.getItem('touchlineBinderDataV03');if(!r){localStorage.setItem('touchlineBinderDataV03',JSON.stringify(initialData));return structuredClone(initialData)}try{return JSON.parse(r)}catch{return structuredClone(initialData)}}
-function save(){localStorage.setItem('touchlineBinderDataV03',JSON.stringify(data));renderAll()}
+function loadData(){const r=localStorage.getItem('touchlineBinderDataV04');if(!r){localStorage.setItem('touchlineBinderDataV04',JSON.stringify(initialData));return structuredClone(initialData)}try{return JSON.parse(r)}catch{return structuredClone(initialData)}}
+function save(){localStorage.setItem('touchlineBinderDataV04',JSON.stringify(data));renderAll()}
 function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
 function fmtDate(v){if(!v)return'TBD';return new Date(v+'T00:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'})}
 function eventCountdown(v){if(!v)return'Date TBD';const today=new Date();today.setHours(0,0,0,0);const d=new Date(v+'T00:00:00');const days=Math.round((d-today)/86400000);if(days===0)return'Today';if(days===1)return'Tomorrow';if(days>1)return`In ${days} days`;return`${Math.abs(days)} days ago`}
@@ -95,26 +102,56 @@ function renderPractice(){
  drillSearchInput.oninput=e=>{drillSearch=e.target.value;renderPractice()};
  drillCategoryInput.onchange=e=>{drillCategory=e.target.value;renderPractice()};
 }
+const practiceThemes=[
+ {name:'Ball Mastery & Dribbling',description:'Focuses on touches, turns, running with the ball, and 1v1 moves.'},
+ {name:'Passing & Combination Play',description:'Emphasizes weight of pass, receiving with the back foot, spatial awareness, and short combinations.'},
+ {name:'Finishing & Shooting',description:'Centers on ball striking, creating shooting windows, and follow-up rebounds.'},
+ {name:'Defending & Pressing',description:'Concentrates on 1v1 defending, recovery runs, and winning the ball in the attacking half.'},
+ {name:'Transitions & Small-Sided Games',description:'Focuses on quick reactions from attack-to-defense or defense-to-attack and managing numerical advantages.'}
+];
+let draggedPracticeIndex=null,touchDragIndex=null;
+function updateThemeChoice(){
+ const custom=document.getElementById('customThemeWrap'),desc=document.getElementById('themeDescription'),sel=document.getElementById('themeSelect');
+ if(!sel)return;
+ custom.classList.toggle('hidden',sel.value!=='Custom');
+ const theme=practiceThemes.find(x=>x.name===sel.value);
+ desc.textContent=theme?theme.description:'Enter a custom practice theme.';
+}
+function finalPracticeTheme(form){return form.themeSelect.value==='Custom'?form.customTheme.value.trim():form.themeSelect.value}
 function openPractice(){
  tempPracticeDrills=[];
- openModal('Practice builder',`<label>Date<input name="date" type="date"></label><label>Theme<input name="theme" required></label><label>Available duration<input id="practiceDuration" name="duration" type="number" value="90" min="1"></label><label>Objectives<textarea name="objectives"></textarea></label>
- <div class="contact-block"><div class="row"><strong>Practice playlist</strong><span class="small muted">Add, reorder, expand, and adjust time</span></div>
+ openModal('Practice builder',`<label>Date<input name="date" type="date"></label>
+ <label>Theme<select id="themeSelect" name="themeSelect" onchange="updateThemeChoice()">${practiceThemes.map(t=>`<option value="${esc(t.name)}">${esc(t.name)}</option>`).join('')}<option value="Custom">Custom theme</option></select></label>
+ <div id="themeDescription" class="theme-description"></div>
+ <label id="customThemeWrap" class="hidden">Custom theme<input name="customTheme" placeholder="Enter your own theme"></label>
+ <label>Available duration<input id="practiceDuration" name="duration" type="number" value="90" min="1"></label><label>Objectives<textarea name="objectives"></textarea></label>
+ <div class="contact-block"><div class="row"><strong>Practice playlist</strong><span class="small muted">Drag the handle to reorder, or use Move up/down</span></div>
  <label>Add drill<select id="practiceDrillSelect">${data.drills.map(d=>`<option value="${d.id}">${esc(d.name)} (${esc(d.minutes)} min)</option>`).join('')}</select></label>
  <button type="button" class="secondary" onclick="addPracticeDrill()">Add selected drill</button><div id="selectedDrills" class="drill-list"></div><div id="practiceTotal"></div></div>
  <label>Equipment / reminders<textarea name="equipment"></textarea></label><label>After-practice notes<textarea name="notes"></textarea></label>`,
- f=>{data.practices.push({id:uid(),date:f.date.value,theme:f.theme.value.trim(),duration:f.duration.value,objectives:f.objectives.value.trim(),drills:tempPracticeDrills.map(x=>({...x})),equipment:f.equipment.value.trim(),notes:f.notes.value.trim()});save()});
- practiceDuration.oninput=renderSelectedDrills; renderSelectedDrills();
+ f=>{const theme=finalPracticeTheme(f);if(!theme){alert('Please enter a custom theme.');return}data.practices.push({id:uid(),date:f.date.value,theme,duration:f.duration.value,objectives:f.objectives.value.trim(),drills:tempPracticeDrills.map(x=>({...x})),equipment:f.equipment.value.trim(),notes:f.notes.value.trim()});save()});
+ practiceDuration.oninput=renderSelectedDrills;updateThemeChoice();renderSelectedDrills();
 }
 function addPracticeDrill(){const d=data.drills.find(x=>x.id===practiceDrillSelect.value);if(d){tempPracticeDrills.push({id:d.id,name:d.name,minutes:Number(d.minutes)||0,setup:d.setup||'',play:d.play||'',coachingPoints:d.coachingPoints||''});renderSelectedDrills()}}
 function movePracticeDrill(i,n){const j=i+n;if(j<0||j>=tempPracticeDrills.length)return;[tempPracticeDrills[i],tempPracticeDrills[j]]=[tempPracticeDrills[j],tempPracticeDrills[i]];renderSelectedDrills()}
+function movePracticeItem(from,to){if(from===to||from==null||to==null||from<0||to<0||from>=tempPracticeDrills.length||to>=tempPracticeDrills.length)return;const [item]=tempPracticeDrills.splice(from,1);tempPracticeDrills.splice(to,0,item);renderSelectedDrills()}
+function dragPracticeStart(i,e){draggedPracticeIndex=i;e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',String(i));e.currentTarget.closest('.builder-row').classList.add('dragging')}
+function dragPracticeOver(i,e){e.preventDefault();e.dataTransfer.dropEffect='move';document.querySelectorAll('.builder-row').forEach(x=>x.classList.remove('drag-target'));e.currentTarget.classList.add('drag-target')}
+function dropPractice(i,e){e.preventDefault();const from=Number(e.dataTransfer.getData('text/plain'));movePracticeItem(from,i)}
+function dragPracticeEnd(){draggedPracticeIndex=null;document.querySelectorAll('.builder-row').forEach(x=>x.classList.remove('dragging','drag-target'))}
+function touchPracticeStart(i,e){touchDragIndex=i;e.currentTarget.closest('.builder-row').classList.add('dragging')}
+function touchPracticeMove(e){if(touchDragIndex==null)return;e.preventDefault();const t=e.touches[0],target=document.elementFromPoint(t.clientX,t.clientY)?.closest('.builder-row');document.querySelectorAll('.builder-row').forEach(x=>x.classList.remove('drag-target'));if(target)target.classList.add('drag-target')}
+function touchPracticeEnd(e){if(touchDragIndex==null)return;const t=e.changedTouches[0],target=document.elementFromPoint(t.clientX,t.clientY)?.closest('.builder-row');const to=target?Number(target.dataset.index):touchDragIndex;movePracticeItem(touchDragIndex,to);touchDragIndex=null}
 function removePracticeDrill(i){tempPracticeDrills.splice(i,1);renderSelectedDrills()}
 function updatePracticeMinutes(i,v){tempPracticeDrills[i].minutes=Math.max(0,Number(v)||0);renderSelectedDrills()}
 function renderSelectedDrills(){
  if(!window.selectedDrills)return;
- selectedDrills.innerHTML=tempPracticeDrills.map((d,i)=>`<details class="drill-chip builder-item"><summary><span><strong>${i+1}. ${esc(d.name)}</strong></span><span>${d.minutes} min</span></summary><div class="builder-detail">
+ selectedDrills.innerHTML=tempPracticeDrills.map((d,i)=>`<div class="builder-row" data-index="${i}" draggable="true" ondragstart="dragPracticeStart(${i},event)" ondragover="dragPracticeOver(${i},event)" ondrop="dropPractice(${i},event)" ondragend="dragPracticeEnd()">
+ <button type="button" class="drag-handle" aria-label="Drag ${esc(d.name)}" ontouchstart="touchPracticeStart(${i},event)" ontouchmove="touchPracticeMove(event)" ontouchend="touchPracticeEnd(event)">☰</button>
+ <details class="drill-chip builder-item"><summary><span><strong>${i+1}. ${esc(d.name)}</strong></span><span>${d.minutes} min</span></summary><div class="builder-detail">
  <label>Minutes for this session<input type="number" min="0" value="${d.minutes}" oninput="updatePracticeMinutes(${i},this.value)"></label>
  ${d.setup?`<p><strong>Setup:</strong> ${esc(d.setup)}</p>`:''}${d.play?`<p><strong>How it plays:</strong> ${esc(d.play)}</p>`:''}${d.coachingPoints?`<p><strong>Coaching points:</strong> ${esc(d.coachingPoints)}</p>`:''}
- <div class="order-btns"><button type="button" class="secondary tiny" onclick="movePracticeDrill(${i},-1)">Move up</button><button type="button" class="secondary tiny" onclick="movePracticeDrill(${i},1)">Move down</button><button type="button" class="danger tiny" onclick="removePracticeDrill(${i})">Remove</button></div></div></details>`).join('');
+ <div class="order-btns"><button type="button" class="secondary tiny" onclick="movePracticeDrill(${i},-1)">Move up</button><button type="button" class="secondary tiny" onclick="movePracticeDrill(${i},1)">Move down</button><button type="button" class="danger tiny" onclick="removePracticeDrill(${i})">Remove</button></div></div></details></div>`).join('');
  const total=tempPracticeDrills.reduce((s,x)=>s+(Number(x.minutes)||0),0),limit=Number(window.practiceDuration?.value)||0,over=limit&&total>limit;
  practiceTotal.innerHTML=`<div class="practice-total ${over?'over':''}"><strong>${total} of ${limit||'—'} minutes planned</strong>${over?`<div>${total-limit} minutes over the available time.</div>`:''}</div>`;
 }
